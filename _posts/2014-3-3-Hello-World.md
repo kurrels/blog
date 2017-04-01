@@ -34,7 +34,7 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
 
 	- Push
 
-		Once you have made at least one commit, you can then 'push' your changes to github. This assumes, however, that you have the correct permisions to the project on github. Chances are, if you didn't set up the project yourself, or were added to the project by someone else, you don't have permission to directly make pushes to that project. If that is the case, I suggest you look into forking a repository, and making pull requests (I've added links to resources at the bottom that explain these things.)
+		Once you have made at least one commit, you can then 'push' your changes to github. This assumes, however, that you have the correct permisions to the project on github. Chances are, if you didn't set up the project yourself, or were added to the project by someone else, you don't have permission to directly make pushes to that project. If that is the case, I suggest you look into forking a repository, and making pull requests (see the second link in the next section)
 
 		But if you do have the correct permisions, updating the project on GitHub is as easy as typing `git push origin head`. Again, don't worry too much about what "origin" or "head" mean at first. Just understand that this command will take the changes that you made locally, and apply them to the project on Github.
 
@@ -42,6 +42,20 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
 
 		Lets say your friend has made some changes and 'pushed' their changes to the project on GitHub. You can get those latest changes by 'pulling.' From within the correct directory, you can type `git pull`. This will download your friends changes and let you view them on your computer.
 
-		If you try to push  
-2) 
-3) 
+		If you try to push to GitHub without first 'pulling' the changes that were made since the last time you pulled, git will complain. If it does, simply `git pull` the latest changes, then try `git push origin head` again. That usually will work.
+
+2) Learn more about git and github, both from a theoretical perspective, and by learning more about what can be done with git. I recomend the following following resources (in this order):
+
+	http://gitimmersion.com/lab_01.html (do the first 20 or 30 slides or so at least.)
+
+	Even if you don't understand or remember all of this, just working through it will help you later because you will at least have a better idea of what to google in the future when you are trying to figure out how to do something in git.
+
+	https://www.youtube.com/watch?v=75_UrC2unv4&feature=youtu.be
+
+	This video will help you see how to collaberate on open source projects on GitHub
+
+3) when you don't remember a command, or don't understand an error, just google it. In general, you'll get higher quality hits by restricting your search to stackoverflow like this: "how to undo a commit site:stackoverflow.com". In general, you'll get higher quality hits by restricting your search to stackoverflow.
+
+4) in the end, if you completely mess everything up, there's always this: https://xkcd.com/1597/
+
+Let me know if you have any questions or proposed modifications to this post.
