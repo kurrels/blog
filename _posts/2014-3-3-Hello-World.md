@@ -40,11 +40,9 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
     ![git_push_fail_example.png]({{ site.baseurl }}/images/git_push_fail_example.png "git_push_fail_example.png")
 
 2)Learn more about git and github, both from a theoretical perspective, and by learning more about what can be done with git. I recomend the following following resources (in this order):
-
-1) <http://gitimmersion.com/lab_01.html> (do the first 20 or 30 slides or so at least.)
-Even if you don't understand or remember all of this, just working through it will help you later because you will at least have a better idea of what to google in the future when you are trying to figure out how to do something in git.
-
-2) <https://www.youtube.com/watch?v=75_UrC2unv4&feature=youtu.be>
+   * <http://gitimmersion.com/lab_01.html> (do the first 20 or 30 slides or so at least.)
+Even if you don't understand or remember all of this, just working through it will help you later because you will at least have a better idea of what to google in the future when you are trying to figure out how to do something in git
+   * <https://www.youtube.com/watch?v=75_UrC2unv4&feature=youtu.be>
 This video will help you see how to collaberate on open source projects on GitHub
 
 3)when you don't remember a command, or don't understand an error, just google it. In general, you'll get higher quality hits by restricting your search to stackoverflow like this: "how to undo a commit site:stackoverflow.com". In general, you'll get higher quality hits by restricting your search to stackoverflow.
