@@ -19,7 +19,7 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
     * 'Status' just gives you some information about your git repository.
     For example, after you have changed some files, you can type "git status", and git will tell you which files you have changed. Notice here that I made a change to _posts/2014-3-3-Hello-World.md.
     
-![git_status_example.png](/images/git_status_example.png "git_status_example.png")
+![git_status_example.png]({{ site.baseurl }}/images/git_status_example.png "git_status_example.png")
 
 * Add and Commit
     * Making a commit is like taking a snapshot of your files. At first, don't worry too much about what a commit is. Just trust me that if you want make your changes show up on GitHub (and not just stay local to your computer), you'll first have to make at least one commit. 
