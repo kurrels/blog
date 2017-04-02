@@ -18,6 +18,7 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
 * Status
     * 'Status' just gives you some information about your git repository.
     For example, after you have changed some files, you can type "git status", and git will tell you which files you have changed. Notice here that I made a change to _posts/2014-3-3-Hello-World.md.
+    
 ![git_status_example.png](/images/git_status_example.png "git_status_example.png")
 
 * Add and Commit
