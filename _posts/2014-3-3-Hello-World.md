@@ -18,8 +18,7 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
 * Status
     * 'Status' just gives you some information about your git repository.
     For example, after you have changed some files, you can type `git status`, and git will tell you which files you have changed. Notice here that I made a change to _posts/2014-3-3-Hello-World.md.
-    
-![git_status_example.png]({{ site.baseurl }}/images/git_status_example.png "git_status_example.png")
+    ![git_status_example.png]({{ site.baseurl }}/images/git_status_example.png "git_status_example.png")
 
 * Add and Commit
     * Making a commit is like taking a snapshot of your files. At first, don't worry too much about what a commit is. Just trust me that if you want make your changes show up on GitHub (and not just stay local to your computer), you'll first have to make at least one commit. 
@@ -27,22 +26,18 @@ Git is a super powerful and interesting tool, but it can be quite intimidating t
     ![git_add_example.png]({{ site.baseurl }}/images/git_add_example.png "git_add_example.png")
     * You can 'git add' as many files as you like before you make a commit. Then when you make a commit, git takes all the files that are in the 'staging area' (again, don't worry too much about what this means) and records that changes have been made to those files (git will not commit files that are not in the staging area).
     * When you make a commit, you must label the commit with a message. People generally use that message to discribe what changes they made in that commit. To make a commit type `git commit -m "updates first blog post"` (with your own message of course).
-    
-![git_commit_example.png]({{ site.baseurl }}/images/git_commit_example.png "git_commit_example.png")
+    ![git_commit_example.png]({{ site.baseurl }}/images/git_commit_example.png "git_commit_example.png")
 
 * Push
     * Once you have made at least one commit, you can then 'push' your changes to GitHub. This assumes, however, that you have the correct permisions to the project on GitHub. Chances are, if you didn't set up the project yourself, or were added to the project by someone else, you don't have permission to directly make pushes to that project. If that is the case, I suggest you look into forking a repository, and making pull requests (see the second link in the next section)
     * But if you do have the correct permisions, updating the project on GitHub is as easy as typing `git push origin head`. Again, don't worry too much about what "origin" or "head" mean at first. Just understand that this command will take the changes that you made locally, and apply them to the project on GitHub.
-
-![git_push_example.png]({{ site.baseurl }}/images/git_push_example.png "git_push_example.png")
+    ![git_push_example.png]({{ site.baseurl }}/images/git_push_example.png "git_push_example.png")
 
 * Pull 
     * Lets say your friend has made some changes and 'pushed' their changes to the project on GitHub. You can get those latest changes by 'pulling.' From within the correct directory, you can type `git pull`. This will download your friends changes and let you view them on your computer.
-
-![git_pull_example.png]({{ site.baseurl }}/images/git_pull_example.png "git_pull_example.png")
+    ![git_pull_example.png]({{ site.baseurl }}/images/git_pull_example.png "git_pull_example.png")
     * If you try to push to GitHub without first 'pulling' the changes that were made since the last time you pulled, git will complain. If it does, simply `git pull` the latest changes, then try `git push origin head` again. That usually will work.
-    
-![git_push_fail_example.png]({{ site.baseurl }}/images/git_push_fail_example.png "git_push_fail_example.png")
+    ![git_push_fail_example.png]({{ site.baseurl }}/images/git_push_fail_example.png "git_push_fail_example.png")
 
 2)Learn more about git and github, both from a theoretical perspective, and by learning more about what can be done with git. I recomend the following following resources (in this order):
 
